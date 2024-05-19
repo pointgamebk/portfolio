@@ -12,7 +12,7 @@ const Grid = () => {
             key={i}
             title={item.title}
             description={item.description}
-            className={i === 0 || i === 6 ? "md:col-span-2" : ""}
+            className={i === 3 || i === 6 ? "md:col-span-2" : ""}
             img={item.img}
             imgClassName={item.imgClassName}
             titleClassName={item.titleClassName}

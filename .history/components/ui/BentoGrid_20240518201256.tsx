@@ -96,7 +96,7 @@ export const BentoGridItem = ({
           </div>
         </div>
 
-        {id === 2 && <GlobeDemo />}
+        {id === 2 && <Globe />}
       </div>
     </div>
   );

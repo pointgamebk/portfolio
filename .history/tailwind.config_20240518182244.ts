@@ -42,9 +42,7 @@ const config = {
           "100": "#E4ECFF",
         },
         purple: "#CBACF9",
-        gridbg: "rgb(4,7,29)",
-        bggradient:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+        gridbg: ""
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
