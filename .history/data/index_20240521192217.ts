@@ -86,7 +86,7 @@ export const projects = [
     des: "A platform where high-level athletes provide training camps for aspiring athletes.",
     img: "/cmpfy_7.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://webhooktesting.vercel.app/",
+    link: "https://github.com/adrianhajdin?tab=repositories",
   },
   {
     id: 2,
@@ -94,7 +94,7 @@ export const projects = [
     des: "A platform for recreational sports players to find games and leagues in their area.",
     img: "/pg_4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://pointgame-next.vercel.app/",
+    link: "https://github.com/adrianhajdin/zoom-clone",
   },
 ];
 

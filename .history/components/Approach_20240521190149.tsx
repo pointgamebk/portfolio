@@ -117,7 +117,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
       <button className="p-[3px] relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple rounded-full" />
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full" />
         <div className="inline-flex h-full w-full cursor-pointer bg-slate-950 rounded-full  relative group items-center transition duration-200 text-white hover:bg-transparent px-5 py-2 text-2xl font-bold">
           {order}
         </div>

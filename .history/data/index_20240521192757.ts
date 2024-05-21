@@ -86,7 +86,7 @@ export const projects = [
     des: "A platform where high-level athletes provide training camps for aspiring athletes.",
     img: "/cmpfy_7.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://webhooktesting.vercel.app/",
+    link: "https://github.com/adrianhajdin?tab=repositories",
   },
   {
     id: 2,
