@@ -45,11 +45,7 @@ const Hero = () => {
               icon={<FaLocationArrow />}
               position="right"
             /> */}
-            <LitButton
-              title="Show My Work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
+            <LitButton />
           </a>
         </div>
       </div>

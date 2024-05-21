@@ -84,7 +84,7 @@ export const projects = [
     id: 1,
     title: "Campify",
     des: "A platform where high-level athletes provide training camps for aspiring athletes.",
-    img: "/cmpfy_7.png",
+    img: "/cmpfy_6.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://github.com/adrianhajdin?tab=repositories",
   },
