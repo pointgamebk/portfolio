@@ -5,7 +5,7 @@ import LitButton from "./ui/LitButton";
 
 const Hero = () => {
   return (
-    <section id="hero">
+    <section id="hero" className="overflow-hidden">
       <div className="pb-10 pt-20">
         <div>
           <Spotlight
