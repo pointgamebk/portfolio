@@ -58,7 +58,7 @@ export const BentoGridItem = ({
     setCopied(true);
   };
 
-  const leftLists = ["TypeScript", "MongoDB", "TailwindCSS"];
+  const leftLists = ["Vercel", "MongoDB", "TypeScript"];
   const rightLists = ["React Native", "AWS", "GraphQL"];
 
   return (

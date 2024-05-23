@@ -58,8 +58,8 @@ export const BentoGridItem = ({
     setCopied(true);
   };
 
-  const leftLists = ["TypeScript", "MongoDB", "TailwindCSS"];
-  const rightLists = ["React Native", "AWS", "GraphQL"];
+  const leftLists = ["React.js", "AWS", "TypeScript"];
+  const rightLists = ["React Native", "Next.js", "GraphQL"];
 
   return (
     <div
@@ -87,14 +87,18 @@ export const BentoGridItem = ({
           <Sparkles
             id="tsparticlesfullpage"
             background="transparent"
-            minSize={0.4}
-            maxSize={1}
-            particleDensity={1200}
-            className="h-full w-full absolute overflow-hidden top-0 left-0 bg-black"
+            minSize={0.6}
+            maxSize={1.4}
+            particleDensity={100}
+            className="h-full w-full absolute overflow-hidden top-0 left-0"
             particleColor="#FFFFFF"
           />
         )}
-        <div className={`absolute right-0 -bottom-5 ${id === 5 && "w-full"} `}>
+        <div
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full bg-black"
+          } `}
+        >
           {spareImg && (
             <img
               src={spareImg}

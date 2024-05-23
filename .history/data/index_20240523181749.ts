@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "Always looking to learn more",
+    description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -57,6 +57,8 @@ export const gridItems = [
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "",
     spareImg: "",
+    // img: "/b5.svg",
+    // spareImg: "/grid.svg",
   },
   {
     id: 6,
@@ -107,6 +109,11 @@ export const socialMedia = [
   },
   {
     id: 2,
+    img: "/twit.svg",
+    url: "https://github.com/pointgamebk",
+  },
+  {
+    id: 3,
     img: "/link.svg",
     url: "https://www.linkedin.com/in/brian-hill-33b6261b9/",
   },

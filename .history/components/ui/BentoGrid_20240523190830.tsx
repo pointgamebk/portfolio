@@ -58,8 +58,8 @@ export const BentoGridItem = ({
     setCopied(true);
   };
 
-  const leftLists = ["TypeScript", "MongoDB", "TailwindCSS"];
-  const rightLists = ["React Native", "AWS", "GraphQL"];
+  const leftLists = ["React.js", "AWS", "TypeScript"];
+  const rightLists = ["React Native", "Next.js", "GraphQL"];
 
   return (
     <div
@@ -84,24 +84,21 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 5 && (
-          <Sparkles
-            id="tsparticlesfullpage"
-            background="transparent"
-            minSize={0.4}
-            maxSize={1}
-            particleDensity={1200}
-            className="h-full w-full absolute overflow-hidden top-0 left-0 bg-black"
-            particleColor="#FFFFFF"
-          />
+          <BackgroundGradientAnimation></BackgroundGradientAnimation>
         )}
-        <div className={`absolute right-0 -bottom-5 ${id === 5 && "w-full"} `}>
-          {spareImg && (
+        <div
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
+        >
+          {/* {spareImg && (
             <img
               src={spareImg}
               alt={spareImg}
+              //   width={220}
               className="object-cover object-center w-full h-full"
             />
-          )}
+          )} */}
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation></BackgroundGradientAnimation>

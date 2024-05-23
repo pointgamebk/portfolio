@@ -58,8 +58,8 @@ export const BentoGridItem = ({
     setCopied(true);
   };
 
-  const leftLists = ["TypeScript", "MongoDB", "TailwindCSS"];
-  const rightLists = ["React Native", "AWS", "GraphQL"];
+  const leftLists = ["React.js", "AWS", "TypeScript"];
+  const rightLists = ["React Native", "Next.js", "GraphQL"];
 
   return (
     <div
@@ -73,7 +73,9 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={`${id === 6 && "flex justify-center"} h-full`}>
+      <div
+        className={`${id === 6 || (id === 5 && "flex justify-center")} h-full`}
+      >
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -87,22 +89,27 @@ export const BentoGridItem = ({
           <Sparkles
             id="tsparticlesfullpage"
             background="transparent"
-            minSize={0.4}
-            maxSize={1}
-            particleDensity={1200}
-            className="h-full w-full absolute overflow-hidden top-0 left-0 bg-black"
+            minSize={0.6}
+            maxSize={1.4}
+            particleDensity={100}
+            className="w-full h-full"
             particleColor="#FFFFFF"
           />
         )}
-        <div className={`absolute right-0 -bottom-5 ${id === 5 && "w-full"} `}>
+        {/* <div
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
+        >
           {spareImg && (
             <img
               src={spareImg}
               alt={spareImg}
+              //   width={220}
               className="object-cover object-center w-full h-full"
             />
           )}
-        </div>
+        </div> */}
         {id === 6 && (
           <BackgroundGradientAnimation></BackgroundGradientAnimation>
         )}
