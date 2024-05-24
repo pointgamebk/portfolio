@@ -84,7 +84,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 4 && <Meteors number={30} />}
+        {id === 4 && <Meteors number={20} />}
         {id === 5 && (
           <Sparkles
             id="tsparticlesfullpage"
@@ -96,7 +96,11 @@ export const BentoGridItem = ({
             particleColor="#CBACF9"
           />
         )}
-        <div className={`absolute right-0 -bottom-5 ${id === 5 && "w-full"} `}>
+        <div
+          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full"} ${
+            id === 4 && "bg-black"
+          }`}
+        >
           {spareImg && (
             <img
               src={spareImg}

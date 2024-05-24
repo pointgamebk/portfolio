@@ -9,7 +9,7 @@ import Lottie from "react-lottie";
 import { IoCopyOutline } from "react-icons/io5";
 import LitButton from "./LitButton";
 import { Sparkles } from "./Sparkles";
-import { Meteors } from "./Meteors";
+import { Boxes } from "./Boxes";
 
 export const BentoGrid = ({
   className,
@@ -84,7 +84,6 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 4 && <Meteors number={30} />}
         {id === 5 && (
           <Sparkles
             id="tsparticlesfullpage"
@@ -96,7 +95,15 @@ export const BentoGridItem = ({
             particleColor="#CBACF9"
           />
         )}
-        <div className={`absolute right-0 -bottom-5 ${id === 5 && "w-full"} `}>
+        {id === 4 && (
+          <Boxes className="h-full w-full absolute overflow-hidden top-0 left-0" />
+        )}
+        <div
+          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full"} ${
+            id === 4 &&
+            "absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none"
+          }`}
+        >
           {spareImg && (
             <img
               src={spareImg}

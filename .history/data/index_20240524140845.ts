@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I am very adaptable to communicating across different time zones",
+    title: "I'm very flexible with time zone communications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Passionate developer and tech enthusiast",
+    title: "Tech enthusiast with a passion for development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -63,7 +63,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to build something together?",
+    title: "Do you want to start a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -89,7 +89,7 @@ export const projects = [
     title: "Campify",
     des: "A platform where high-level athletes provide training camps for aspiring athletes.",
     img: "/cmpfy_7.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://webhooktesting.vercel.app/",
   },
   {

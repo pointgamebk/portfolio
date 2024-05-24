@@ -84,7 +84,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 4 && <Meteors number={30} />}
+        {id === 4 && <Meteors number={20} />}
         {id === 5 && (
           <Sparkles
             id="tsparticlesfullpage"

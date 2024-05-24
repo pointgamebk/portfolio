@@ -89,7 +89,7 @@ export const projects = [
     title: "Campify",
     des: "A platform where high-level athletes provide training camps for aspiring athletes.",
     img: "/cmpfy_7.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://webhooktesting.vercel.app/",
   },
   {
