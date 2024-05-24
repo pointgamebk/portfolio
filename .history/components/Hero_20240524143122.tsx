@@ -38,7 +38,7 @@ const Hero = () => {
             performance.
           </p>
 
-          <a href="#projects">
+          <a href="#about">
             <LitButton
               title="Show My Work"
               icon={<FaLocationArrow />}
