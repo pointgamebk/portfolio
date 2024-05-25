@@ -37,7 +37,7 @@ const RecentProjects = () => {
                 </h1>
 
                 <p
-                  className="lg:text-base lg:font-normal font-light text-sm line-clamp-2"
+                  className="lg:text-med lg:font-normal font-light text-sm line-clamp-2"
                   style={{
                     color: "#BEC1DD",
                     margin: "1vh 0",
