@@ -96,7 +96,7 @@ export const projects = [
     id: 2,
     title: "point.game",
     des: "A platform for recreational sports players to find games and leagues in their area.",
-    img: "/pntgm.png",
+    img: "/pntgm_2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://pointgame-next.vercel.app/",
   },
