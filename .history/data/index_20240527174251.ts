@@ -71,7 +71,7 @@ export const gridItems = [
   },
   {
     id: 7,
-    title: "Currently developing a niche-specific streaming platform...",
+    title: "Currently developing a niche-specific streaming platform",
     description: "Whats's Next?",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
